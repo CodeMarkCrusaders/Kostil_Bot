@@ -25,7 +25,7 @@ async def on_message(message: Message):
           await kostil_channel.send(f'{a}')
         c = a
         await asyncio.sleep(0.1)
-  elif message.author.name == 'Fallout equestria':
+  elif message.author.name == 'Client_Kostil_Bot':
     with open('server_in.txt', 'w') as op:
       op.write(message.content)
 
