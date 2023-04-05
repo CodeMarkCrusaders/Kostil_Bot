@@ -22,7 +22,7 @@ async def on_message(message: Message):
                     await kostil_channel.send(f'{a}')
                 c = a
                 await asyncio.sleep(0.1)
-    elif message.author.name == 'fsfsdfsdfsdf':
+    elif message.author.name == 'Server_Kostil_Bot':
         with open('client_in.txt', 'w') as op:
             op.write(message.content)
 
