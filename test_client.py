@@ -26,8 +26,4 @@ async def on_message(message: Message):
         with open('client_in.txt', 'w') as op:
             op.write(message.content)
 
-
-
-loop = asyncio.get_event_loop()
-loop.create_task(bot.run('TOKEN'))
-loop.run_forever()
+bot.run('TOKEN')
